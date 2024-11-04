@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PortoController;
 use App\Http\Controllers\RegisController;
 
-Route::get('/', [PortoController::class, 'index']);
+Route::get('/portofolio', [PortoController::class, 'index']);
 Route::get('/detail/{id}', [PortoController::class, 'detail']);
 Route::get('/tabel', [RegisController::class, 'tabel'])->middleware('auth');
 

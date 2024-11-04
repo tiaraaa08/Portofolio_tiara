@@ -59,7 +59,7 @@ class RegisController extends Controller
             $user = User::orderBy('id', 'desc')->first();
                 if (!$user) { //ini asline $porto = Porto::all(); sama $user = User::all(); sama redirect('/login'); aja wes cukup, tapi karena aku pgn data akun sg muncul cuman 1 dan sg paling baru diinputne sg masuk, dadi ditambahi tetek mberek it
                     // Tindakan jika tidak ada data, misalnya redirect atau tampilkan pesan error.
-                    return redirect('/')->with('error', 'Data pengguna tidak ditemukan.');
+                    return redirect('/portofolio')->with('error', 'Data pengguna tidak ditemukan.');
                 }
             return view('tabel', compact('porto', 'user'));
             }

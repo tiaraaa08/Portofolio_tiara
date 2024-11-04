@@ -139,7 +139,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link fs-4" href="{{ url('/') }}">Portofolio</a>
+                                    <a class="nav-link fs-4" href="{{ url('/portofolio') }}">Portofolio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link fs-4" href="{{ url('/tabel') }}">Tabel Projek</a>

@@ -21,7 +21,7 @@
                 <div class="st-nav">
                     <ul class="st-nav-list st-onepage-nav">
                         <li>
-                            <a href="{{ url('/') }}"> <img src="{{ asset('img/kembali.svg') }}" style="width: 8%">
+                            <a href="{{ url('/portofolio') }}"> <img src="{{ asset('img/kembali.svg') }}" style="width: 8%">
                                 &nbsp; Kembali</a>
                         </li>
                     </ul>

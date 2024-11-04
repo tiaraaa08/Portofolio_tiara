@@ -20,7 +20,7 @@ class PortoController extends Controller
     $porto = Porto::find($id);
 
     if (!$porto) {
-        return redirect('/')->with('error', 'Data tidak ditemukan.');
+        return redirect('/portofolio')->with('error', 'Data tidak ditemukan.');
     }
 
     return view('detail', ['porto' => $porto]);
