@@ -13,7 +13,7 @@ class PortoController extends Controller
     public function index()//+
     {
         $porto = Porto::all();
-        return view('portofolio',['porto'=>$porto]);
+        return view('index',['porto'=>$porto]);
     }
     public function detail($id)
 {
